@@ -1,63 +1,28 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Publications - Mohamed Bensaid</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      margin: 0;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #1a237e;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-    }
-    .publication {
-      background-color: #fff;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-left: 4px solid #3f51b5;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    footer {
-      margin-top: 3rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page pour débutant HTML</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Mohamed Bensaid</h1>
-    <p>Doctorant en Mathématiques — Analyse, EDPs, Géométrie</p>
-
-    <h2>📚 Publications</h2>
-
-    <div class="publication">
-      <strong>2024 — Mémoire de Master :</strong>  
-      <p><em>Fonction Tau de Sato et solutions de l’équation KP, KdV</em><br>
-      Dirigé par V.V. Fock, Université de Strasbourg.</p>
-    </div>
-
-    <div class="publication">
-      <strong>2025 — Mémoire en cours :</strong>  
-      <p><em>Analyse de solutions pour des équations de Schrödinger non linéaires (lisses et logarithmiques)</em><br>
-      Dirigé par V. Combet, Université de Lille.</p>
-    </div>
-
-    <!-- Ajoute plus ici si tu veux -->
-
-    <footer>
-      Dernière mise à jour : Avril 2025
-    </footer>
-  </div>
+    <h1>Bienvenue sur ma page HTML</h1>
+    <h2>Voici une liste de choses à faire :</h2>
+    <ul>
+        <li>Apprendre l'HTML</li>
+        <li>Visiter mon linkedin: <span> <a href="https://www.linkedin.com/in/mathis-dacacio-298a25293/" target="_blank"> Mon Linkedin</a></span></li>
+        <li>Me proposer un stage !</li>
+    </ul>
+    <h2>Formulaire de contact</h2>
+    <form action="#" method="post">
+        <label for="name">Nom *:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email *:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Envoyer</button>
+    </form>
 </body>
 </html>
